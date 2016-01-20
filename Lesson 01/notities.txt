@@ -1,0 +1,19 @@
+//Command line:
+//2 versies van documenten vergelijken doe je met het volgende commando:
+diff -u bestand1 bestand2
+git diff-u commitcode1 commitcode2
+
+git log
+//toont de verschillende versies met hun commitcodes
+
+git clone url
+//kopieert een project naar je computer (naar de map waar je terminal zich bevindt)
+
+git init
+//start git voor die map
+
+git status
+//toont bestanden die veranderd zijn sinds laatste commit
+
+git add
+//voegt bestanden toe aan git (staging area)
