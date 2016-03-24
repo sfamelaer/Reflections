@@ -17,3 +17,14 @@ git status
 
 git add
 //voegt bestanden toe aan git (staging area)
+
+git commit
+// alle gewijzigde bestanden in staging area worden aan nieuwe commit toegevoegd.
+git commit -m “Commit Message”
+// een boodschap wordt bijgevoegd
+
+git diff (zonder argumenten)
+// toont verschil tussen bewerkte bestanden in working directory en staging area
+
+git diff --staged 
+// toont enkel verschil tussen het bewerkte bestand in staging area en origineel
